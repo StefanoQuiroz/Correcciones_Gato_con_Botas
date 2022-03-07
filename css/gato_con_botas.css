@@ -1,0 +1,632 @@
+.creditos .imagen_portada,
+#final_cuento .creditos .imagen_portada{
+    background-image: url(../img/gato_con_botas/gato_con_botas_portada.jpg);
+    background-size: cover;
+    background-position: 70%;
+    background-repeat: no-repeat;
+    background-color: #7a215b;
+}
+
+.sprite_01{ 
+    background-image: url("../img/gato_con_botas/gato_con_botas_sprite_1.png");
+/*    background-color: rgba(255,255,0,0.5);*/
+}
+.sprite_02{ 
+    background-image: url("../img/gato_con_botas/gato_con_botas_sprite_2.png");
+/*    background-color: rgba(255,255,0,0.5);*/
+}
+
+#escenario #escena_00,
+#escenario #escena_00 .fondo{
+     width: 3352px;
+}
+#escena_00 .fondo{ 
+    background-image: url("../img/gato_con_botas/gato_con_botas_esc_0_fondo.jpg");
+    background-size: cover;
+}
+#escena_00 .molino{ 
+    width: 478px;
+    height: 478px;
+    background-position: 0px -67px;
+    top: 140px;
+    left: 570px;
+}
+#escena_00 .hermano_mayor{
+    top: 310px;
+    left: 500px;
+}
+#escena_00 .hermano_mayor .cuerpo{ 
+    width: 102px;
+    height: 354px;
+    background-position: -488px -67px;
+    left: 95px;
+}
+#escena_00 .hermano_mayor .brazo{ 
+    width: 110px;
+    height: 289px;
+    background-position: -831px -67px;
+    top: 64px;
+}
+#escena_00 .hermano_mayor .parpados{ 
+    width: 27px;
+    height: 13px;
+    background-position: -1270px -47px;
+    top: 45px;
+    left: 126px;
+}
+
+#escena_00 .hermano_medio{
+    top: 340px;
+    left: 1300px;
+}
+#escena_00 .hermano_medio .cuerpo{ 
+    width: 177px;
+    height: 235px;
+    background-position: -600px -300px;
+    left: 45px;
+}
+#escena_00 .hermano_medio .cabeza{ 
+    width: 92px;
+    height: 107px;
+    background-position: -488px -431px;
+    top: 0px;
+}
+#escena_00 .hermano_medio .parpados{ 
+    width: 19px;
+    height: 9px;
+    background-position: -1307px -47px;
+    top: 21px;
+    left: 124px;
+}
+
+#escena_00 .gato{
+    top: 560px;
+    left: 2470px;
+}
+#escena_00 .gato .cola{ 
+    width: 41px;
+    height: 147px;
+    background-position: -831px -366px;
+    top: 40px;
+    left: 120px;
+}
+#escena_00 .gato .cuerpo{ 
+    width: 221px;
+    height: 223px;
+    background-position: -600px -67px;
+}
+#escena_00 .gato .parpados{ 
+    width: 85px;
+    height: 37px;
+    background-position: -1270px 0px;
+    top: 29px;
+    left: 57px;
+}
+
+#escena_00 .hermano_gato{
+    top: 130px;
+    left: 2200px;
+    background-image: url(../img/gato_con_botas/gato_con_botas_esc_0_hijo_gato.png);
+    width: 163px;
+    height: 459px;
+}
+
+
+
+#escena_01 .fondo{ 
+    background-image: url("../img/gato_con_botas/gato_con_botas_esc_1_fondo.jpg");
+/*    background-image: url("../img/gato_con_botas/testpos1.jpg");*/
+}
+#escena_01 .hombre_gato .boca{ 
+    width: 36px;
+    height: 45px;
+    background-position: -1434px -4px;
+    top: 329px;
+    left: 327px;
+    display:none;
+    z-index: 10;
+}
+#escena_01 .hombre_gato .parpados{ 
+    width: 59px;
+    height: 53px;
+    background-position: -1365px 0px;
+    top: 239px;
+    left: 298px;
+/*    opacity: 0.9;*/
+}
+#escena_01 .gato{
+    top: 602px;
+    left: 1020px;
+}
+#escena_01 .gato .cola{ 
+    width: 103px;
+    height: 310px;
+    background-position: -274px -555px;
+    top: 20px;
+    left: 100px;
+}
+#escena_01 .gato .cuerpo{ 
+    width: 264px;
+    height: 477px;
+    background-position: 0px -555px;
+}
+#escena_01 .gato .boca{ 
+    width: 32px;
+    height: 33px;
+    background-position: -666px -855px;
+    top: 160px;
+    left: 7px;
+    
+}
+#escena_01 .gato .brazo{ 
+    width: 35px;
+    height: 126px;
+    background-position: -274px -875px;
+    top: 230px;
+    left: 125px;
+}
+#escena_01 .gato .parpados{ 
+    width: 122px;
+    height: 109px;
+    background-position: -387px -555px;
+    top: 66px;
+    left: 40px;
+/*    opacity: 0.8;*/
+}
+
+
+#escenario #escena_02,
+#escenario #escena_02 .fondo{
+     width: 3546px;
+}
+#escena_02 .fondo{ 
+    background-image: url("../img/gato_con_botas/gato_con_botas_esc_2_fondo.jpg");
+    background-size: cover;
+/*    background-image: url("../img/gato_con_botas/testpos2.jpg");*/
+}
+
+#escena_02 .gato{
+    top: 700px;
+    left: 1920px;
+}
+#escena_02 .gato .cola{ 
+    width: 47px;
+    height: 140px;
+    background-position: -387px -791px;
+    top: 70px;
+    left: 40px;
+}
+#escena_02 .gato .bolsa{ 
+    width: 90px;
+    height: 107px;
+    background-position: -387px -674px;
+    top: 125px;
+    left: 145px;
+}
+#escena_02 .gato .cuerpo{ 
+    width: 201px;
+    height: 251px;
+    background-position: -666px -555px;
+}
+#escena_02 .gato .parpados{ 
+    width: 42px;
+    height: 35px;
+    background-position: -319px -875px;
+    top: 90px;
+    left: 101px;
+    display:block;
+/*    opacity: 0.8;*/
+}
+
+#escena_02 .rey{
+    top: 80px;
+    left: 2420px;
+}
+#escena_02 .rey .cabeza{ 
+    width: 117px;
+    height: 132px;
+    background-position: -877px -592px;
+    top: 125px;
+    left: 40px;
+}
+#escena_02 .rey .cabeza .parpados{ 
+    width: 14px;
+    height: 16px;
+    background-position: -326px -920px;
+    top: 50px;
+    left: 21px;
+}
+#escena_02 .rey .cuerpo{ 
+    width: 258px;
+    height: 314px;
+    background-position: -1221px -67px;
+    top: 70px;
+    left: 40px;
+}
+
+#escena_02 .soldado{ 
+    width: 260px;
+    height: 515px;
+    background-position: -951px -67px;
+    top: 52px;
+    left: 2990px;
+}
+
+
+#escena_03 .fondo{ 
+    background-image: url("../img/gato_con_botas/gato_con_botas_esc_3_fondo.jpg");
+    background-size: cover;
+    background-position: center;
+/*    background-image: url("../img/gato_con_botas/testpos3.jpg");*/
+}
+
+#escena_03 .hermano_gato{
+    top: 230px;
+    left: 500px;
+    background-position:-519px -555px;
+    width: 137px;
+    height: 368px;
+}
+#escena_03 .hermano_gato .parpados{
+    top: 29px;
+    left: 65px;
+    background-position:-735px -816px;
+    width: 43px;
+    height: 21px;
+}
+
+#escena_03 .pato{
+    width: 59px;
+    height: 29px;
+    background-position: -666px -816px;
+    top: 729px;
+    right: 120px;
+}
+#escena_03 .pato.scale15{
+    top: 740px;
+    right: -10px;
+}
+
+#escena_03 .gato{
+    background-image: url("../img/gato_con_botas/gato_con_botas_esc_3_gato_sprite.png");
+    width: 137px;
+    height: 212px;
+    top: 549px;
+    left: 1120px;
+    background-position: 0% 0%;
+}
+#escena_03 .gato .parpados{
+    width: 84px;
+    height: 51px;
+    background-position: -1004px -592px;
+    top: 36px;
+    left: 34px;
+}
+#escena_03 .gato .boca{
+    width: 14px;
+    height: 11px;
+    background-position: -831px -523px;
+    top: 65px;
+    left: 42px;
+}
+
+
+#escena_04 .fondo{ 
+    background-image: url("../img/gato_con_botas/gato_con_botas_esc_4_fondo.jpg");
+     background-size: cover;
+    background-position: center;
+/*    background-image: url("../img/gato_con_botas/testpos4.jpg");*/
+}
+
+#escena_04 .carruaje01{
+    width: 430px;
+    height: 149px;
+    background-position: -872px -736px;
+    top: 310px;
+    left: 0px;
+}
+#escena_04 .carruaje02{
+    background-image: url(../img/gato_con_botas/gato_con_botas_esc_4_sprite_carruaje.png);
+    width: 352px;
+    height: 273px;
+    top: 380px;
+    left: 1220px;
+}
+
+#escena_04 .gato{
+    background-image: url(../img/gato_con_botas/gato_con_botas_esc_4_sprite_gato.png);
+    width: 169px;
+    height: 225px;
+    top: 270px;
+    left: 900px;
+}
+#escena_04 .loma{
+    width: 1260px;
+    height: 57px;
+    background-position: 0px 0px;
+    top: 367px;
+    left: -302px;
+}
+#escena_04 .arbusto{
+    width: 134px;
+    height: 247px;
+    background-position: -1312px -736px;
+}
+#escena_04 .arbusto.arbustoA{
+    top: 107px;
+    right: -60px;
+}
+#escena_04 .arbusto.arbustoB{
+    top: 167px;
+    left: 170px;
+}
+
+#escena_04 .hermano_gato{
+    width: 233px;
+    height: 335px;
+    background-position: -1221px -391px;
+    top: 250px;
+    left: 140px;
+}
+#escena_04 .agua{
+    width: 201px;
+    height: 57px;
+    background-position: -519px -933px;
+    top: 875px;
+    left: 275px;
+}
+
+
+#escena_05 .fondo{ 
+    background-image: url("../img/gato_con_botas/gato_con_botas_esc_5_fondo.jpg");
+/*    background-image: url("../img/gato_con_botas/testpos5.jpg");*/
+}
+
+#escena_05 .hermano_gato{
+    width: 112px;
+    height: 176px;
+    background-position: -1070px -767px;
+    top: 555px;
+    left: 235px;
+}
+#escena_05 .hermano_gato .parpados{
+    width: 14px;
+    height: 18px;
+    background-position: -1538px -601px;
+    top: 63px;
+    left:85px;
+}
+#escena_05 .cubre_cabeza{
+    width: 133px;
+    height: 112px;
+    background-position: -1364px -714px;
+    top: 635px;
+    left:96px;
+}
+#escena_05 .gato{
+    top: 591px;
+    left: 1154px;
+}
+
+#escena_05 .gato .parpados{
+    width: 85px;
+    height: 64px;
+    background-position: -1492px -527px;
+}
+
+
+
+#escena_05 .rey{
+    top: 394px;
+    left: 1508px;
+}
+#escena_05 .rey .parpados{
+    width: 48px;
+    height: 15px;
+    background-position: -1480px -601px;
+}
+#escena_05 .rey .brazo{
+    width: 124px;
+    height: 49px;
+    background-position: -1190px -811px;
+    top: 60px;
+    left: 70px;
+}
+#escena_05 .rey .cubre_brazo{
+    width: 81px;
+    height: 162px;
+    background-position: -1192px -870px;
+    top: 55px;
+    left: 32px;
+}
+
+#escena_06 .fondo{           
+    background-image: url("../img/gato_con_botas/gato_con_botas_esc_6_fondo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#escena_06 .fondo_intro{           
+    background-image: url("../img/gato_con_botas/gato_con_botas_esc_6_fondo_intro.jpg");
+}
+#escena_06 .gato{
+    top: 191px;
+    left: 1154px;
+}
+#escena_06 .gato .cuerpo{
+    width: 259px;
+    height: 517px;
+    background-position: -1753px 0px;
+}
+#escena_06 .gato .parpados{
+    width: 230px;
+    height: 116px;
+    background-position: -1490px -235px;
+    top: 100px;
+}
+#escena_06 .gato .brazo{
+    width: 155px;
+    height: 97px;
+    background-position: -1492px -420px;
+    top: 250px;
+    left: -50px;
+}
+
+#escena_06 .ogro{
+    top: 161px;
+    left: 254px;
+}
+#escena_06 .ogro .cuerpo{
+    width: 412px;
+    height: 416px;
+    background-position: -1068px 0px;
+}
+#escena_06 .ogro .parpados{
+    width: 142px;
+    height: 69px;
+    background-position: -1326px -836px;
+    top: 66px;
+    left: 161px;
+/*    opacity: 0;*/
+}
+#escena_06 .ogro .cejas{
+    width: 154px;
+    height: 34px;
+    background-position: -1192px -767px;
+    top: 40px;
+    left: 140px;
+}
+
+
+#escena_06 .leon{
+    top: 201px;
+    left: 504px;
+}
+#escena_06 .leon .cuerpo{
+    width:284px;
+    height: 331px;
+    background-position: -1070px -426px;
+    top: 60px;
+    left: -60px;
+}
+#escena_06 .leon .cabeza{
+    width: 253px;
+    height: 225px;
+    background-position: -1490px 0px;
+}
+#escena_06 .leon .cabeza .parpados{
+    width: 122px;
+    height: 110px;
+    background-position: -1362px -426px;
+    top: 62px;
+    left: 111px;
+/*    opacity: 0;*/
+}
+#escena_06 .raton{
+    top: 401px;
+    left: 690px;
+    background-position: -1362px -546px;
+    width:108px;
+    height: 158px;
+
+}
+#escena_06 .humo{
+    top: 120px;
+    left: 120px;
+    background-position: 0px 0px;
+    width:1058px;
+    height: 1075px;
+}
+
+#escena_07 .fondo{ 
+    background-image: url("../img/gato_con_botas/gato_con_botas_esc_7_fondo.jpg");
+}
+#escena_07 .raton{
+    top: 701px;
+    left: 1746px;
+}
+#escena_07 .raton .parpados{
+    width: 52px;
+    height: 19px;
+    background-position: -1507px -753px;
+}
+#escena_07 .gato{
+    top: 434px;
+    left: 977px;
+}
+#escena_07 .gato .parpados{
+    width: 224px;
+    height: 114px;
+    background-position: -1507px -629px;
+}
+#escena_07 .zapato{
+    top: 868px;
+    left: 601px;
+    width: 176px;
+    height: 212px;
+    background-position: -1507px -784px;
+}
+#escena_07 .princesa_container{
+    width: 775px;
+    height: 1980px;
+/*    background-color: blueviolet;*/
+    overflow: hidden;
+}
+#escena_07 .princesa{
+    top: 452px;
+    left: 530px;
+    width: 163px;
+    height: 290px;
+    background-position: -1741px -527px;
+}
+#escena_07 .corazones{
+    top: 510px;
+    left: 360px;
+}
+#escena_07 .corazones .corazon{
+    width: 25px;
+    height: 23px;
+    background-position: -1569px -753px;
+}
+
+
+#escena_00 .btn_interact.btn_burro{ top: 520px; left: 1435px; }
+#escena_00 .btn_interact.btn_gato{ top: 270px; left: 2545px; }
+#escena_01 .btn_interact{ top: 470px; left: 850px; }
+#escena_02 .btn_interact{ top: 520px; left: 2270px; }
+#escena_03 .btn_interact{ top: 610px; left: 850px;}
+#escena_04 .btn_interact{ top: 462px; left: 750px; }
+/* #escena_05 .btn_interact{ top: 615px; left: 879px; } */
+#escena_06 .btn_interact{ top: 210px; left: 1045px; }
+#escena_07 .btn_interact{ top: 290px; left: 350px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
