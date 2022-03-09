@@ -106,11 +106,11 @@ let JSON_CUENTO = {
                     tiempo:[9.1,15.1,4]
                 },
                 {
-                    texto: 'El Rey los recibió con gusto,',
+                    texto: 'El Rey lo recibió con gusto,',
                     tiempo:[15.6,17.7,1.5]
                 },
                 {
-                    texto: 'al igual que otros regalos que el gato continuó llevándole durante meses.',
+                    texto: 'al igual que los otros regalos que el gato continuó llevándole durante meses.',
                     tiempo:[18.2,23.5,0.5]
                 },
                 
@@ -172,7 +172,7 @@ let JSON_CUENTO = {
                     tiempo:[17,19.9,7.9]
                 },
                 {
-                    texto: 'ordenó a rescatar al joven.',
+                    texto: 'ordenó rescatar al joven.',
                     tiempo:[20.4,22.5]
                 },
                 
@@ -791,8 +791,12 @@ SteppedEase.config(frames-1),repeat:repeatOn,yoyo:yoyo})
             ANIM.main_tl.pause();
             ANIM.animaEscena3();
             ANIM.interactividad(3);
-            ANIM.waitForSound('rio',0,10,0,0,0.2);
-            ANIM.fadeVolume('rio',0,0.2,3);
+            Player.playSoundFX('rio',true);
+            ANIM.fadeVolume('rio',0,0.2,10);
+            Player.playSoundFX('musica_inicio',true);
+            ANIM.fadeVolume('musica_inicio',0.1,0.2,10);
+            //ANIM.waitForSound('rio',0,10,0,0,0.2);
+            //Player.playSoundFX('musica_inicio', true);
             Player.activaBtnSiguiente();
             Player.tooglePlayPauseIco();
             Player.resetSubtitulos();
@@ -983,10 +987,6 @@ SteppedEase.config(frames-1),repeat:repeatOn,yoyo:yoyo})
             .addCallback(function(){
                 Player.playSoundFX('sorpresa');
             }, "+=0")
-            .addCallback(function(){
-                Player.playSoundFX('musica_inicio');
-                Player.cambiaVolume('musica_inicio', 0.3); 
-            }, "+=2")
             .addLabel('final')
             
              ;
