@@ -19,7 +19,8 @@ let JSON_CUENTO = {
         {nombre:"miau",url:"audio/gato_con_botas/fx/miau.mp3"},
         {nombre:"burro",url:"audio/gato_con_botas/fx/burro.mp3"},
         {nombre:"sorpresa",url:"audio/gato_con_botas/fx/sorpresa.mp3"},
-        {nombre:"no_te_aflijas",url:"audio/gato_con_botas/fx/no_te_aflijas.mp3"},
+        { nombre:"no_te_aflijas", url: "audio/gato_con_botas/fx/no_te_aflijas.mp3" },
+        {nombre:"no_te_aflijas_2",url:"audio/gato_con_botas/fx/no_te_aflijas_2.mp3"},
         {nombre:"saco",url:"audio/gato_con_botas/fx/saco.mp3"},
         {nombre:"metete_al_rio",url:"audio/gato_con_botas/fx/metete_al_rio.mp3"},
         {nombre:"rio",url:"audio/gato_con_botas/fx/rio.mp3"},
@@ -70,11 +71,11 @@ let JSON_CUENTO = {
                     tiempo:[0,5,2]
                 },
                 {
-                    texto: '- se lamentaba el hermano menor.',
+                    texto: '-- se lamentaba el hermano menor.',
                     tiempo:[5.5,7.6,0.5]
                 },
                 {
-                    texto: '“Miauuuuu, no te aflijas” -le dijo el gato.',
+                    texto: '“no te aflijas” -- le dijo el gato.',
                     tiempo:[8.1,12.1,2]
                 },
                 {
@@ -160,20 +161,20 @@ let JSON_CUENTO = {
                     tiempo:[2.2,6.5,1]
                 },
                 {
-                    texto: '“Miauuuuu ¡Auxilio! Han asaltado a mi amo, el Marqués de Carabás,',
-                    tiempo:[7,13.7,0.5]
+                    texto: '“¡Auxilio! Han asaltado a mi amo, el Marqués de Carabás,',
+                    tiempo:[7,12.4,0.5]
                 },
                 {
-                    texto: 'y le han robado su carruaje y su ropa”',
-                    tiempo:[14.2,16.5,0.5]
+                    texto: 'y le han robado su carruaje y su ropa.”',
+                    tiempo:[12.9,15.2,0.5]
                 },
                 {
                     texto: 'El Rey, que de inmediato reconoció al gato,',
-                    tiempo:[17,19.9,7.9]
+                    tiempo:[15.7,18.4,8.1]
                 },
                 {
                     texto: 'ordenó rescatar al joven.',
-                    tiempo:[20.4,22.5]
+                    tiempo:[18.9,21]
                 },
                 
             ]
@@ -227,7 +228,7 @@ let JSON_CUENTO = {
                     tiempo:[16.9,19.6,2]
                 },
                 {
-                    texto: '“Tu poder es muy grande” - dijo el gato asustado.',
+                    texto: '“Tu poder es muy grande” -- dijo el gato asustado.',
                     tiempo:[20.1,23.6,6]
                 },
                 {
@@ -244,11 +245,7 @@ let JSON_CUENTO = {
                 },
                 {
                     texto: '',
-                    tiempo:[35.3,38.3,5]
-                },
-                {
-                    texto: '',
-                    tiempo:[39,40,2]
+                    tiempo:[35.3,39.3,4]
                 },
                 
             ]
@@ -264,7 +261,7 @@ let JSON_CUENTO = {
                     tiempo:[0,4.4,2]
                 },
                 {
-                    texto: 'el gato - guiñando un ojo al joven - dijo:',
+                    texto: 'el gato - guiñando un ojo al joven -- dijo:',
                     tiempo:[4.9,8.7,1]
                 },
                 {
@@ -690,7 +687,7 @@ SteppedEase.config(frames-1),repeat:repeatOn,yoyo:yoyo})
             .fromTo('#escena_06 .raton',0.07,{rotation:-40},{rotation:-50, yoyo:true, repeat:27, transformOrigin:'50px 79px'}, '-=0.6')
         ANIM.main_tl.add(preAnimacion7_1,'6_8+=1.7')
 
-        let preAnimacion7_2 = new TimelineMax()
+        /* let preAnimacion7_2 = new TimelineMax()
         preAnimacion7_2
             .addCallback(function(){
                 Player.playSoundFX('magia');
@@ -701,8 +698,7 @@ SteppedEase.config(frames-1),repeat:repeatOn,yoyo:yoyo})
             .to('#escena_06 .ogro',0.6,{alpha:1},'-=0.6')
             .set('#escena_06 .humo',{alpha:1, y:0},'-=0.6')
             .to('#escena_06 .humo',1,{alpha:0, y:-200},'-=0.6')
-        ANIM.main_tl.add(preAnimacion7_2,'6_9+=1')
-
+        ANIM.main_tl.add(preAnimacion7_2,'6_9+=1') */
 
 
 
@@ -907,10 +903,10 @@ SteppedEase.config(frames-1),repeat:repeatOn,yoyo:yoyo})
             .addLabel('inicio')
           
             .addCallback(function(){
-                Player.playSoundFX('no_te_aflijas');
+                Player.playSoundFX('no_te_aflijas_2');
             })
             .to('#escena_01 .gato .brazo',3,{rotation:60,transformOrigin:'6px 12px', ease:Elastic.easeOut.config(1,0.3)})
-            .fromTo('#escena_01 .gato .boca',0.1,{rotation:0},{rotation:-20,transformOrigin:'32px 2px', repeat:7, yoyo:true},'-=3')
+            .fromTo('#escena_01 .gato .boca',0.2,{rotation:0},{rotation:-20,transformOrigin:'32px 2px', repeat:20, yoyo:true},'-=3')
             .addCallback(function(){
                 Player.playSoundFX('sorpresa');
             },'-=1')
@@ -924,15 +920,13 @@ SteppedEase.config(frames-1),repeat:repeatOn,yoyo:yoyo})
         //02
         ANIM.anim_interact_2_saco = new TimelineMax(); 
         ANIM.anim_interact_2_saco
-         
             .addLabel('inicio')
-            .addCallback(function(){
-                Player.playSoundFX('miau');
-            }, 2)
-           
+            .to('#escena_02 .gato .bolsa',0.2,{scaleY:1.1, transformOrigin:'42px 10px', repeat:20, yoyo:true}, 0)
             .addCallback(function(){
                 Player.playSoundFX('saco');
-            }, "+=8")
+            }, 0)
+            .to('#escena_02 .gato .parpados',1,{display:'none'}, "+=0")
+
             .to('#escena_02 .gato .bolsa',0.3,{rotation:22, transformOrigin:'42px 10px'})
             .to('#escena_02 .gato .bolsa',0.6,{rotation:-42, transformOrigin:'42px 10px'})
             .to('#escena_02 .gato .bolsa',0.6,{rotation:22, transformOrigin:'42px 10px'})
@@ -940,27 +934,35 @@ SteppedEase.config(frames-1),repeat:repeatOn,yoyo:yoyo})
             .to('#escena_02 .gato .bolsa',0.6,{rotation:22, transformOrigin:'42px 10px'})
             .to('#escena_02 .gato .bolsa',0.6,{rotation:-42, transformOrigin:'42px 10px'})
             .to('#escena_02 .gato .bolsa',0.6,{rotation:0, transformOrigin:'42px 10px'})
-            .to('#escena_02 .gato .parpados',1,{display:'none'},1)
-            
+
+            .addCallback(function(){
+                Player.playSoundFX('saco');
+            }, "-=3")
+
             .addCallback(function(){
                 try{ ANIM.tl_parpadeo_02_rey.pause(0); } catch(err){}
-            })
-            
+            }, "+=0")
+        
+            .to('#escena_02 .rey .cabeza',1,{rotation:-5, transformOrigin:'98px 109px', ease:Power4.easeIn})
+            .to('#escena_02 .rey .cabeza',1,{rotation:0, transformOrigin:'98px 109px', ease:Power2.easeIn})
+            .to('#escena_02 .rey .cabeza',1,{rotation:-5, transformOrigin:'98px 109px', ease:Power4.easeIn})
+            .to('#escena_02 .rey .cabeza',1,{rotation:0, transformOrigin:'98px 109px', ease:Power2.easeIn})
             .addCallback(function(){
                 Player.playSoundFX('hombre_pensativo');
-            }, "+=5")    
-            .to('#escena_02 .rey .cabeza',1,{rotation:-5, transformOrigin:'98px 109px', ease:Power4.easeIn})
-            .to('#escena_02 .rey .cabeza',1,{rotation:0, transformOrigin:'98px 109px', ease:Power2.easeIn})
-            .to('#escena_02 .rey .cabeza',1,{rotation:-5, transformOrigin:'98px 109px', ease:Power4.easeIn})
-            .to('#escena_02 .rey .cabeza',1,{rotation:0, transformOrigin:'98px 109px', ease:Power2.easeIn})
-//            .to('#escena_02 .rey .cabeza',1,{rotation:0, transformOrigin:'98px 109px'})
+            }, "-=3")
+
             .addCallback(function(){
                 try{ ANIM.tl_parpadeo_02_rey.play(0); } catch(err){}
-            })
+            }, "+=0") 
+
+            .addCallback(function(){
+                Player.playSoundFX('miau');
+            }, "+=0")
+
             .addLabel('final');
         ANIM.anim_interact_2_saco.pause();
         
-        ANIM.anim_interact_2_saco.add(TweenMax.to('#escena_02 .gato .bolsa',0.2,{scaleY:1.1, transformOrigin:'42px 10px', repeat:15, yoyo:true}),0);
+       //ANIM.anim_interact_2_saco.add(TweenMax.;
        
          //03
         ANIM.anim_interact_3_gato = new TimelineMax();
@@ -1018,7 +1020,7 @@ SteppedEase.config(frames-1),repeat:repeatOn,yoyo:yoyo})
             
            
         ANIM.anim_interact_4_carruajes.pause();
-        ANIM.anim_interact_4_carruajes.add(TweenMax.fromTo('#escena_04 .gato',0.5,{backgroundPosition:'0% 0%'},{backgroundPosition:'-100% 0%', ease:SteppedEase.config(1),repeat:6}),2); 
+        ANIM.anim_interact_4_carruajes.add(TweenMax.fromTo('#escena_04 .gato',0.5,{backgroundPosition:'0% 0%'},{backgroundPosition:'-100% 0%', ease:SteppedEase.config(1),repeat:5}),0); 
         /* ANIM.anim_interact_4_carruajes.addCallback(function(){
                 Player.playSoundFX('caballito');
                 Player.cambiaVolume('caballito',0.5);
@@ -1055,9 +1057,9 @@ SteppedEase.config(frames-1),repeat:repeatOn,yoyo:yoyo})
         ANIM.anim_interact_6_ogro
          
             .addLabel('inicio')
-            .to('#escena_06 .ogro',0.3,{y:-30, repeat:1, yoyo:true})
+            //.to('#escena_06 .raton',0.3,{y:110, x:390, repeat:1, yoyo:true})
             .to('#escena_06 .leon',0.3,{y:-30, repeat:1, yoyo:true},'-=0.3')
-            .to('#escena_06 .ogro',0.6,{alpha:0},'-=0.3')
+            .to('#escena_06 .raton',0.6,{alpha:0},'-=0.3')
             .to('#escena_06 .leon',0.6,{alpha:1},'-=0.6')
             .set('#escena_06 .humo',{alpha:1, y:0},'-=0.6')
             .to('#escena_06 .humo',1,{alpha:0, y:-200},'-=0.6')

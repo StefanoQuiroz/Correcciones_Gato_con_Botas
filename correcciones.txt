@@ -1,77 +1,65 @@
+Observaciones a El gato con botas
+
+General: Reemplazar en todos los subtítulos los guiones cortos por guiones largos.
+
+Guión corto: -
+
+Guión largo: —
+
+OK
+
+
 ESCENA 1
 
-Bajar un poco volumen de la música inicial. ------> (CORREGIDO)
-
-Terminar escena con la misma música del principio en loop pero con menos volumen, para que se escuchen bien las interacciones del burro y el gato. ------> (CORREGIDO)
-
+OK
 
 ESCENA 2
 
-El amo debe comenzar con la cara seria, no sonriendo (la actual no coincide con “lamentarse”) -----> (CORREGIDO)
+En los subtítulos, que no aparezca la palabra Miaauu. Basta con el sonido del gato.OK
 
-Solamente después de terminar la narración que el amo sonría. ------> (CORREGIDO)
-
-En la interacción agregar un miauuu, cosa que quede: ¡miauuuuu, no te aflijas! ------> (CORREGIDO)
-
+En la interacción faltó agregar el sonido de “miau” antes de que el gato diga “No te aflijas”. Ocupar el de la escena 1.OK
 
 ESCENA 3
 
-Hay 2 errores: Dice —>  “El rey los recibió con gusto….” y debe decir " “El rey lo recibió con gusto, al igual que los otros regalos.” ------> (CORREGIDO)
 
-Después de “Y se presentó ante el rey” agregar "Fanfarria trompeta real” (en el drive) luego seguir con la narración. ------> (CORREGIDO)
+La interacción no quedó fluida, hay momentos de silencio innecesarios o en que no sucede nada y por eso se hace lenta. Cuando se mueve la bolsa hay veces en que ocurre en silencio y otras con sonido. Eso es confuso. Dejar de la siguiente manera, en el orden solicitado anteriormente, eliminando los silencios o espacios sin movimiento que hay entremedio:
 
-Que al final, en la interacción el gato abra los ojos (se pueden pegar los ojos de otra escena?), que el rey diga “Ohhh” (sonido “hombre pensativo 1” en drive), y que el gato diga “Miau”.   -------> (CORREGIDO QUE ABRA LOS OJOS)
- 
+Se mueve la bolsa de arriba a abajo y se escucha sonido de bolsa.
+
+El gato pestañea.
+
+Se mueve la bolsa de lado a lado y se escucha sonido de bolsa.
+
+El rey dice “Hhmm”.
+
+El gato dice miau. 
+
+Revisar 
 
 ESCENA 4
 
-En la interacción, al final de la frase del gato, agregar sonido de “Joven sorprendido” de la escena 2 y luego agregar la música inicial a bajo volumen y en loop infinito. ------> (CORREGIDO)
-
- 
+OK
 
 ESCENA 5
 
-Cortar/ suprimir la frase “El joven se metió al río”. Es decir que la narración inicie en “Cuando el carruaje”.  ----> (CORREGIDO)
 
-Antes del “Auxiliooo…” agregar un “miau” y un silencio. ----> (CORREGIDO)
+Dejar un poco más corto el silencio entre el “Miau” y el “Auxilio” del gato.OK
 
-Cuando el gato esté gritando  “…su carruaje y su ropa” que aparezca el carruaje solamente pasando por el fondo. ----> (CORREGIDO)
+En la interacción está bien lo de la carroza. Pero respecto al gato, lo lógico es que éste mueva los brazos haciendo señas antes que llegue la carroza y hasta que se asoma, pero cuando los soldados ya lo ven, el gato debe detener los movimientos de los brazos.Revisar 
 
-Que en la interacción aparezca solamente el carruaje desde la derecha. ----> (CORREGIDO)
+En el subtítulo  Miaaauu “¡Auxilio! Han asaltado a mi amo, el Marqués de Carabás, y le han robado su carruaje y su ropa.” Sacar el Miauu y agregar punto al final. OK
 
- 
 
-ESCENA 6
+ ESCENA 6
 
-Sé que es una patudez el comentario que viene, pero: ¿¿¿No habrá alguno de ustedes que pueda arreglar esa cara HORRENDA de la princesa??? Parece Yayita! Algún arreglo simple…
-Comentario (No es parte de nuestro departamento corregir el arte dado).
-
-Que el gato pestañee de vez en cuando durante las escena (cada 5 segundos, por ejemplo) => -----> (CORREGIDO)
-
-Cuando la narración termine de decir “Junto al rey y la princesa”, que el amo baje la cabeza y el rey estire la mano (está ahora en la interacción) -----> (CORREGIDO)
-
-Suprimir interacción. -----> (CORREGIDO)
-
-¿Existe alguna parte del paisaje que esté en capas? ----> No, es un solo fondo ¿Como para poner nuevamente el carruaje pasando al fondo pero en el sentido inverso? Si no hubiera: quedará mál superponer el carruaje al paisaje de fondo? ----> Según mi criterio si quedaría mal, porque le quitaría el sentido y lógica a la escena ya que todos los personajes estan de un lado del río, y no tendría sentido que el carruaje del rey se este paseando del otro lado del río. -----> (CORREGIDO)
-
-CORTAR LA FRASE FINAL “El astuto gato se adelantó…..cerca de allí” y PEGARLA al principio de la escena 7. ----> (CORREGIDO)
-
- 
+OK
 
 ESCENA 7
 
-CORTAR LA FRASE FINAL DE LA ESCENA ANTERIOR (6) “El astuto gato se adelantó…..cerca de allí” y pegarla para comenzar esta escena. ----> (CORREGIDO)
+Después de que la narración diga: “El ogro, que era muy vanidoso, lo hizo, que el león se transforme en ratón y que suene el ruido mágico.  Y mientras la narración dice “y el gato se lo comió”, acercar el ratón al gato. Revisar 
 
-Luego de que la narración dice “El ogro se convirtió inmediatamente en un león”, que se transforme en león y suene el sonido mágico (como está posteriormente en la interacción) ----> (CORREGIDO)
-
-Dejar un silencio y que siga la narración (con el ogro convertido en león): “Tu poder es muy grande…” ----> (CORREGIDO)
-
-Después de que la narración diga: “El ogro, que era muy vanidoso, lo hizo, y el gato se lo comió”, que el león se transforme en ratón y que suene el ruido mágico. ----> (CORREGIDO)
-
-Que la interacción quede igual. ----> (CORREGIDO)
-
- 
+Que la escena termine con el ratón en la mano del gato, SIN que se vuelva a convertir en ogro.Revisar 
 
 ESCENA 8
 
-Que la pareja se bese solamente después de que la narración diga: “…se enamoraron…"
+OK
