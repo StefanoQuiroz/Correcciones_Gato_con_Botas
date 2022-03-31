@@ -75,7 +75,7 @@ let JSON_CUENTO = {
                     tiempo:[5.5,7.6,0.5]
                 },
                 {
-                    texto: '“no te aflijas” -- le dijo el gato.',
+                    texto: '“No te aflijas” -- le dijo el gato.',
                     tiempo:[8.1,12.1,2]
                 },
                 {
@@ -241,11 +241,11 @@ let JSON_CUENTO = {
                 },
                 {
                     texto: '¡y el gato se lo comió!',
-                    tiempo:[33.4,35.1,0.5]
+                    tiempo:[33.4,35.1,2.5]
                 },
                 {
                     texto: '',
-                    tiempo:[35.3,39.3,4]
+                    tiempo:[35.3,39.3,3]
                 },
                 
             ]
@@ -549,6 +549,7 @@ SteppedEase.config(frames-1),repeat:repeatOn,yoyo:yoyo})
         ANIM.main_tl.add( TweenMax.to('#escena_01 .gato .cola',5,{rotation:50,transformOrigin:'48px 301px', ease:Elastic.easeOut.config(0.4,0.3)}),'1_2+=0.1');
         ANIM.main_tl.add( TweenMax.to('#escena_01 .gato .brazo',3,{rotation:60,transformOrigin:'6px 12px', ease:Elastic.easeOut.config(1,0.3)}),'1_2+=0.1');
         ANIM.main_tl.add( TweenMax.fromTo('#escena_01 .gato .boca',0.1,{rotation:0},{rotation:-20,transformOrigin:'32px 2px', repeat:5, yoyo:true}),'1_2+=0.1');
+        ANIM.main_tl.add( TweenMax.fromTo('#escena_01 .gato .boca',0.1,{rotation:0},{rotation:-20,transformOrigin:'32px 2px', repeat:8, yoyo:true}),'1_2+=1.4');
         ANIM.main_tl.add( TweenMax.set('#escena_01 .hombre_gato .boca',{alpha:0}),'1_2+=1');
         ANIM.main_tl.add( TweenMax.to('#escena_01 .gato .brazo',4,{rotation:90,transformOrigin:'6px 12px', ease:Elastic.easeInOut.config(1,0.3)}),'1_3+=0.1');
         ANIM.main_tl.add(  TweenMax.fromTo('#escena_01 .gato .boca',0.1,{rotation:0},{rotation:-20,transformOrigin:'32px 2px', repeat:31, yoyo:true}),'1_3+=0.1');
@@ -682,10 +683,17 @@ SteppedEase.config(frames-1),repeat:repeatOn,yoyo:yoyo})
             .to('#escena_06 .raton',0.6,{alpha:1},'-=0.6')
             .set('#escena_06 .humo',{alpha:1, y:0},'-=0.6')
             .to('#escena_06 .humo',1,{alpha:0, y:-200},'-=0.6')
-            .fromTo('#escena_06 .raton',1,{x:0,y:0, rotation:0},{x:390,y:-90, rotation:-40, transformOrigin:'50px 79px'},'-=0.6')
+            /* .fromTo('#escena_06 .raton',1,{x:0,y:0, rotation:0},{x:390,y:-90, rotation:-40, transformOrigin:'50px 79px'},'-=0.6')
             .to('#escena_06 .raton',0.7,{x:390,y:110, rotation:-40, transformOrigin:'50px 79px', ease:Bounce.easeOut})
+            .fromTo('#escena_06 .raton',0.07,{rotation:-40},{rotation:-50, yoyo:true, repeat:27, transformOrigin:'50px 79px'}, '-=0.6') */
+        ANIM.main_tl.add(preAnimacion7_1,'6_7+=2')
+        
+        let preAnimacion7_2 = new TimelineMax()
+        preAnimacion7_2
+            .fromTo('#escena_06 .raton',1,{x:0,y:0, rotation:-40},{x:390,y:-90, rotation:0, transformOrigin:'50px 79px'},'-=0.6')
+            .to('#escena_06 .raton',0.7,{x:390,y:110, rotation:0, transformOrigin:'50px 79px', ease:Bounce.easeOut})
             .fromTo('#escena_06 .raton',0.07,{rotation:-40},{rotation:-50, yoyo:true, repeat:27, transformOrigin:'50px 79px'}, '-=0.6')
-        ANIM.main_tl.add(preAnimacion7_1,'6_8+=1.7')
+        ANIM.main_tl.add(preAnimacion7_2,'6_8+=1.7')
 
         /* let preAnimacion7_2 = new TimelineMax()
         preAnimacion7_2
@@ -903,10 +911,10 @@ SteppedEase.config(frames-1),repeat:repeatOn,yoyo:yoyo})
             .addLabel('inicio')
           
             .addCallback(function(){
-                Player.playSoundFX('no_te_aflijas_2');
+                Player.playSoundFX('no_te_aflijas');
             })
             .to('#escena_01 .gato .brazo',3,{rotation:60,transformOrigin:'6px 12px', ease:Elastic.easeOut.config(1,0.3)})
-            .fromTo('#escena_01 .gato .boca',0.2,{rotation:0},{rotation:-20,transformOrigin:'32px 2px', repeat:20, yoyo:true},'-=3')
+            .fromTo('#escena_01 .gato .boca',0.1,{rotation:0},{rotation:-20,transformOrigin:'32px 2px', repeat:12, yoyo:true},'-=3')
             .addCallback(function(){
                 Player.playSoundFX('sorpresa');
             },'-=1')

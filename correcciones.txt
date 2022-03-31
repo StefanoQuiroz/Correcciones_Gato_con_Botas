@@ -1,65 +1,8 @@
-Observaciones a El gato con botas
+Escena 2:
+- Al sacar el Miaau del texto implica que la palabra con que empieza la oración debe comenzar con mayúscula: “No te aflijas”. OK
+- En la interacción, la boca del gato debiera moverse sólo mientras habla. Ahora sigue moviéndose aunque no hable. OK
 
-General: Reemplazar en todos los subtítulos los guiones cortos por guiones largos.
-
-Guión corto: -
-
-Guión largo: —
-
-OK
-
-
-ESCENA 1
-
-OK
-
-ESCENA 2
-
-En los subtítulos, que no aparezca la palabra Miaauu. Basta con el sonido del gato.OK
-
-En la interacción faltó agregar el sonido de “miau” antes de que el gato diga “No te aflijas”. Ocupar el de la escena 1.OK
-
-ESCENA 3
-
-
-La interacción no quedó fluida, hay momentos de silencio innecesarios o en que no sucede nada y por eso se hace lenta. Cuando se mueve la bolsa hay veces en que ocurre en silencio y otras con sonido. Eso es confuso. Dejar de la siguiente manera, en el orden solicitado anteriormente, eliminando los silencios o espacios sin movimiento que hay entremedio:
-
-Se mueve la bolsa de arriba a abajo y se escucha sonido de bolsa.
-
-El gato pestañea.
-
-Se mueve la bolsa de lado a lado y se escucha sonido de bolsa.
-
-El rey dice “Hhmm”.
-
-El gato dice miau. 
-
-Revisar 
-
-ESCENA 4
-
-OK
-
-ESCENA 5
-
-
-Dejar un poco más corto el silencio entre el “Miau” y el “Auxilio” del gato.OK
-
-En la interacción está bien lo de la carroza. Pero respecto al gato, lo lógico es que éste mueva los brazos haciendo señas antes que llegue la carroza y hasta que se asoma, pero cuando los soldados ya lo ven, el gato debe detener los movimientos de los brazos.Revisar 
-
-En el subtítulo  Miaaauu “¡Auxilio! Han asaltado a mi amo, el Marqués de Carabás, y le han robado su carruaje y su ropa.” Sacar el Miauu y agregar punto al final. OK
-
-
- ESCENA 6
-
-OK
-
-ESCENA 7
-
-Después de que la narración diga: “El ogro, que era muy vanidoso, lo hizo, que el león se transforme en ratón y que suene el ruido mágico.  Y mientras la narración dice “y el gato se lo comió”, acercar el ratón al gato. Revisar 
-
-Que la escena termine con el ratón en la mano del gato, SIN que se vuelva a convertir en ogro.Revisar 
-
-ESCENA 8
-
-OK
+Escena  7:
+- Vuelvo a repetir la instrucción, para que la transformación ocurra en el momento oportuno. Son dos momentos:
+Después de que la narración diga: “El ogro, que era muy vanidoso, lo hizo”, que el león se transforme en ratón y que suene el ruido mágico. OK
+Y mientras la narración dice “y el gato se lo comió“, acercar el ratón al gato. OK
