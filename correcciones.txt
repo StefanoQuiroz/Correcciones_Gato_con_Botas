@@ -1,8 +1,2 @@
-Escena 2:
-- Al sacar el Miaau del texto implica que la palabra con que empieza la oración debe comenzar con mayúscula: “No te aflijas”. OK
-- En la interacción, la boca del gato debiera moverse sólo mientras habla. Ahora sigue moviéndose aunque no hable. OK
-
-Escena  7:
-- Vuelvo a repetir la instrucción, para que la transformación ocurra en el momento oportuno. Son dos momentos:
-Después de que la narración diga: “El ogro, que era muy vanidoso, lo hizo”, que el león se transforme en ratón y que suene el ruido mágico. OK
-Y mientras la narración dice “y el gato se lo comió“, acercar el ratón al gato. OK
+Descripción
+En la escena 7, la instrucción era que mientras la narración dice “y el gato se lo comió” hay que acercar el ratón al gato. Entonces, comenzar el traslado del ratón cuando está comenzando esa frase, no cuando termina.

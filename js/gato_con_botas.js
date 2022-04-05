@@ -242,12 +242,7 @@ let JSON_CUENTO = {
                 {
                     texto: '¡y el gato se lo comió!',
                     tiempo:[33.4,35.1,2.5]
-                },
-                {
-                    texto: '',
-                    tiempo:[35.3,39.3,3]
-                },
-                
+                }                
             ]
         },
         {
@@ -693,7 +688,7 @@ SteppedEase.config(frames-1),repeat:repeatOn,yoyo:yoyo})
             .fromTo('#escena_06 .raton',1,{x:0,y:0, rotation:-40},{x:390,y:-90, rotation:0, transformOrigin:'50px 79px'},'-=0.6')
             .to('#escena_06 .raton',0.7,{x:390,y:110, rotation:0, transformOrigin:'50px 79px', ease:Bounce.easeOut})
             .fromTo('#escena_06 .raton',0.07,{rotation:-40},{rotation:-50, yoyo:true, repeat:27, transformOrigin:'50px 79px'}, '-=0.6')
-        ANIM.main_tl.add(preAnimacion7_2,'6_8+=1.7')
+        ANIM.main_tl.add(preAnimacion7_2,'6_8-=0.5')
 
         /* let preAnimacion7_2 = new TimelineMax()
         preAnimacion7_2
@@ -1066,8 +1061,8 @@ SteppedEase.config(frames-1),repeat:repeatOn,yoyo:yoyo})
          
             .addLabel('inicio')
             //.to('#escena_06 .raton',0.3,{y:110, x:390, repeat:1, yoyo:true})
+            .to('#escena_06 .raton',0.1,{alpha:0},'-=0.3')
             .to('#escena_06 .leon',0.3,{y:-30, repeat:1, yoyo:true},'-=0.3')
-            .to('#escena_06 .raton',0.6,{alpha:0},'-=0.3')
             .to('#escena_06 .leon',0.6,{alpha:1},'-=0.6')
             .set('#escena_06 .humo',{alpha:1, y:0},'-=0.6')
             .to('#escena_06 .humo',1,{alpha:0, y:-200},'-=0.6')
